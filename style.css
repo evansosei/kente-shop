@@ -159,6 +159,10 @@ textarea {
   .navbar-custom {
     padding: 0.5rem;
   }
+    .navbar-custom button {
+    padding: 0.5rem;
+     font-size:60px
+  }
   .carousel-custom-image {
     height: 400px;
   }
@@ -181,7 +185,7 @@ textarea {
   }
    .navbar-custom button {
     padding: 0.5rem;
-     font-size:80px
+     font-size:60px
   }
   .carousel-custom-image {
     height: 300px;
