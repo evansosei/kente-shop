@@ -12,8 +12,6 @@
   --deeppink: rgb(183, 67, 87);
 }
 
-/* font-family: "Stylish", sans-serif; */
-/* font-family: "Poppins", sans-serif; */
 .navbar-custom {
   background-image: linear-gradient(
     to left,
@@ -27,12 +25,7 @@
   color: black;
   transition: all 0.3s ease;
 }
-.navbar-logo:hover {
-  color: gold;
-}
-.navbar-logo:hover span {
-  color: black;
-}
+
 span {
   font-size: 3rem;
   color: gold;
@@ -159,9 +152,15 @@ span {
   font-size: 30px;
   color: red;
 }
+textarea {
+  height: 300px;
+}
 @media screen and (max-width: 450px) {
+  .navbar-custom {
+    padding: 0.5rem;
+  }
   .carousel-custom-image {
-    height: 300px;
+    height: 400px;
   }
   .selfi-img-container {
     width: 100%;
@@ -177,6 +176,9 @@ span {
   }
 }
 @media screen and (max-width: 578px) {
+  .navbar-custom {
+    padding: 0.5rem;
+  }
   .carousel-custom-image {
     height: 300px;
   }
